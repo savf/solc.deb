@@ -1,0 +1,10 @@
+Source: solidity
+Section: devel
+Priority: optional
+Maintainer: Stephan Mannhart <stephan.mannhart@uzh.ch>
+Build-Depends: debhelper (>= 7)
+
+Package: solidity
+Architecture: amd64
+Depends: build-essential (>= 12.3), cmake (>= 3.7.2-1), g++ (>= 4:6.3.0-4), gcc (>= 4:6.3.0-4), git (>= 1:2.11.0-3+deb9u3), libboost-all-dev (>= 1.62.0.1), unzip (>= 6.0-21), libz3-dev (>= 4.4.1-0.3)
+Description: A custom solidity package containing solc as well as soltest
